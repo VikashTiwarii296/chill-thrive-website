@@ -1,0 +1,47 @@
+
+#0000ff
+#9a89b4
+#fcf7ff
+#1e1926
+
+
+
+#0000ff
+#66baa8
+#c5fcef
+#4d8075
+
+
+
+Tiffany Blue
+#65dff6
+Midnight Blue
+#00478f
+Blue Grotto
+#1a83cc
+Baby Blue
+#cbebf5
+
+
+
+Deep Arctic Blue #0A2540 (Primary – trust, depth)
+Ice Blue #E6F2FA (Backgrounds, sections)
+Pure White #FFFFFF (Clean space, clarity)
+Steel Gray #8FA3B8 (Text, icons, borders)
+Frost Accent #5BC0EB (CTAs, highlights)
+
+
+
+Navy Blue #102A43
+Soft Sky Blue #D9ECF2
+Warm White #FAFAFA
+Stormy Teal #0D5D56
+Aqua Accent #4FD1C5
+
+
+
+Bright Snow #FAFAFA
+Azure Mist #D9ECF2
+Turquoise #4FD1C5
+Stormy Teal #0D5D56
+Deep Space Blue #102A43
