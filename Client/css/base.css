@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #102A43;
+}
+body{
+    background-image: url(/Client/asset/BG.jpg);
+    background-size: cover;
+    /* opacity: .5; */
+    overflow: hidden;
+}
+
+.container{
+    background-color: hsla(194, 49%, 90%, 0.5);
+    height: 100vh;
+    box-shadow: 0 0 1rem #D9ECF2;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow: auto; */
+}
+
+
+.container .main-content{
+    position: relative;
+    top: 5rem;
+    width: 100%;
+    height: calc(100vh - 6rem); /* navbar + spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.container .main-content {
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* Edge */
+}
+
+.container .main-content::-webkit-scrollbar {
+    width: 0;                   /* Chrome/Safari */
+}
+
+.title{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    /* color: #102A43; */
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+}
+
+.title h5 i{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 200;
+}
+
+.title h1 span{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    color: #0D5D56;
+}
+
+
+.container .services{
+    width: 90%;
+    margin: 3rem auto 0;
+}
+
+h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+}
+
+h3{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+}
+
+
+.why{
+    width: 90%;
+    margin-top: 3rem;
+}
+
+.description{
+    /* width: 90%; */
+    margin-top: 3rem;
+}
+
+.testimonials{
+    width: 90%;
+    margin-top: 3rem;
+}
+
+.CTA {
+    display: flex;
+    align-items: center;
+}
+
+.CTA .badge{
+    background-color: #4FD1C5;
+    border: none;
+    border-radius: 100px;
+    font-size: .85rem;
+    padding: .25rem 1rem;
+    font-weight: 500;
+    margin: auto .5rem;
+    line-height: 1.25rem;
+    color: #fafafa;
+    transition: all .35s ease-in-out;
+}
+
+.CTA .badge.services{
+    background-color: #0D5D56;
+    border: none;
+    width: fit-content;
+    border-radius: 100px;
+    padding: .25rem 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    margin: auto .5rem;
+    color: #fafafa;
+    transition: all .35s ease-in-out;
+}
+
+.CTA .badge:hover{
+   box-shadow: 0 0 8px #4FD1C5;
+}
+
+.CTA .badge.services:hover{
+   box-shadow: 0 0 8px #0D5D56;
+}
+
+.Call-To-Action{
+    width: 90%;
+    margin: 3rem auto 0;
+}
+
+.Call-To-Action .CTA{
+    margin-top: 3rem;
+}
+
+.main-content .footer{
+    /* height: 10vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+.main-content .footer hr{
+    /* height: 10vh; */
+    width: 80%;
+    color: #102A43;
+    border-top:2px solid;
+    opacity: .25;
+}
